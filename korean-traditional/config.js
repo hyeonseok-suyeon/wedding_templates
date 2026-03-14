@@ -1,5 +1,6 @@
 /**
- * Wedding Invitation Configuration
+ * Korean Traditional Wedding Invitation Configuration
+ * 한국 전통 모바일 청첩장 설정
  *
  * 이 파일에서 청첩장의 모든 정보를 수정할 수 있습니다.
  * 이미지는 설정이 필요 없습니다. 아래 폴더에 순번 파일명으로 넣으면 자동 감지됩니다.
@@ -14,13 +15,13 @@
 
 const CONFIG = {
   // ── 초대장 열기 ──
-  useCurtain: false,  // 초대장 열기 화면 사용 여부 (true: 사용, false: 바로 본문 표시)
+  useCurtain: true,
 
   // ── 메인 (히어로) ──
   groom: {
     name: "신랑",
     nameEn: "Groom",
-    father: "여기서이렇게이름을바꾸시면됩니다",
+    father: "아버지",
     mother: "어머니",
     fatherDeceased: false,
     motherDeceased: false
@@ -80,6 +81,6 @@ const CONFIG = {
   // ── 공유 설정 ──
   meta: {
     title: "신랑 ♥ 신부 결혼합니다",
-    description: "2025년 1월 1일, 소중한 분들을 초대합니다."
+    description: "2026년 5월 9일, 소중한 분들을 초대합니다."
   }
 };
