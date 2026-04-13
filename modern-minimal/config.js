@@ -20,7 +20,7 @@ const CONFIG = {
 
   // ── 메인 (히어로) ──
   groom: {
-    name: "신랑",
+    name: "ㅇㅇㅇㅇㅇㅇㅇ",
     nameEn: "GROOM",
     father: "아버지",
     mother: "어머니",
