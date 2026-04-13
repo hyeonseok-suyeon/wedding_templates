@@ -21,7 +21,7 @@ const CONFIG = {
   // ── 메인 (히어로) ──
   groom: {
     name: "정현석",
-    nameEn: "GROOM",
+    nameEn: "정현석",
     father: "정명철",
     mother: "주입분",
     fatherDeceased: false,
@@ -30,7 +30,7 @@ const CONFIG = {
 
   bride: {
     name: "박수연",
-    nameEn: "BRIDE",
+    nameEn: "박수연",
     father: "박광모",
     mother: "이춘아",
     fatherDeceased: false,
@@ -40,12 +40,12 @@ const CONFIG = {
   wedding: {
     date: "2027-01-09",
     time: "11:00",
-    venue: "경찰공제회 자람빌딩",
-    hall: "이룸웨딩컨벤션 5층",
-    address: "서울특별시 마포구 마포대로 78",
+    venue: "이룸웨딩컨벤션",
+    hall: "5층",
+    address: "서울특별시 마포구 마포대로 78 경찰공제회 자람빌딩",
     tel: "02-714-2121",
     mapLinks: {
-      kakao: "https://place.map.kakao.com/13717401#blogreview",
+      kakao: "https://place.map.kakao.com/13717401",
       naver: "https://naver.me/5WOQPS6i"
     }
   },
@@ -73,9 +73,9 @@ const CONFIG = {
       { role: "어머니", name: "주입분", bank: "OO은행", number: "000-000-000000" }
     ],
     bride: [
-      { role: "신부", name: "박수연", bank: "OO은행", number: "000-000-000000" },
-      { role: "아버지", name: "박광모", bank: "OO은행", number: "000-000-000000" },
-      { role: "어머니", name: "이춘아", bank: "OO은행", number: "000-000-000000" }
+      { role: "신부", name: "박수연", bank: "신한은행", number: "110-307-053892" },
+      { role: "아버지", name: "박광모", bank: "국민은행", number: "041-210-416998" },
+      { role: "어머니", name: "이춘아", bank: "국민은행", number: "044-210-357168" }
     ]
   },
 
