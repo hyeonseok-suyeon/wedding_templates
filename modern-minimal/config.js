@@ -20,46 +20,46 @@ const CONFIG = {
 
   // ── 메인 (히어로) ──
   groom: {
-    name: "ㅇㅇㅇㅇㅇㅇㅇ",
+    name: "정현석",
     nameEn: "GROOM",
-    father: "아버지",
-    mother: "어머니",
+    father: "정명철",
+    mother: "주입분",
     fatherDeceased: false,
     motherDeceased: false
   },
 
   bride: {
-    name: "신부",
+    name: "박수연",
     nameEn: "BRIDE",
-    father: "아버지",
-    mother: "어머니",
+    father: "박광모",
+    mother: "이춘아",
     fatherDeceased: false,
     motherDeceased: false
   },
 
   wedding: {
-    date: "2025-01-01",
-    time: "13:00",
-    venue: "예식장 이름",
-    hall: "3층 그랜드홀",
-    address: "서울특별시 강남구 테헤란로 123",
-    tel: "02-1234-5678",
+    date: "2027-01-09",
+    time: "11:00",
+    venue: "경찰공제회 자람빌딩",
+    hall: "이룸웨딩컨벤션 5층",
+    address: "서울특별시 마포구 마포대로 78",
+    tel: "02-714-2121",
     mapLinks: {
-      kakao: "",
-      naver: ""
+      kakao: "https://place.map.kakao.com/13717401#blogreview",
+      naver: "https://naver.me/5WOQPS6i"
     }
   },
 
   // ── 인사말 ──
   invitation: {
     title: "소중한 분들을 초대합니다",
-    message: "서로 다른 길을 걸어온 두 사람이\n이제 같은 길을 함께 걸어가려 합니다.\n\n바쁘시더라도 오셔서\n축복해 주시면 감사하겠습니다."
+    message: "수많은 사건의 현장과 사람의 곁에서\n서로의 편이 되어 줄 사람을 만났습니다.\n\n끝나지 않을 하루를\n함께 살아가려 합니다.\n\n이 시작에 귀한 발걸음으로\n함께해 주시면 감사하겠습니다."
   },
 
   // ── 우리의 이야기 ──
   story: {
     title: "우리의 이야기",
-    content: "서로 다른 길을 걷던 두 사람이\n하나의 길을 함께 걷게 되었습니다.\n\n여러분을 소중한 자리에 초대합니다."
+    content: "여러분을 소중한 자리에 초대합니다."
   },
 
   // ── 오시는 길 ──
@@ -68,21 +68,21 @@ const CONFIG = {
   // ── 마음 전하실 곳 ──
   accounts: {
     groom: [
-      { role: "신랑", name: "홍길동", bank: "OO은행", number: "000-000-000000" },
-      { role: "아버지", name: "홍판서", bank: "OO은행", number: "000-000-000000" },
-      { role: "어머니", name: "김순이", bank: "OO은행", number: "000-000-000000" }
+      { role: "신랑", name: "정현석", bank: "OO은행", number: "000-000-000000" },
+      { role: "아버지", name: "정명철", bank: "OO은행", number: "000-000-000000" },
+      { role: "어머니", name: "주입분", bank: "OO은행", number: "000-000-000000" }
     ],
     bride: [
-      { role: "신부", name: "김영희", bank: "OO은행", number: "000-000-000000" },
-      { role: "아버지", name: "김철수", bank: "OO은행", number: "000-000-000000" },
-      { role: "어머니", name: "이미자", bank: "OO은행", number: "000-000-000000" }
+      { role: "신부", name: "박수연", bank: "OO은행", number: "000-000-000000" },
+      { role: "아버지", name: "박광모", bank: "OO은행", number: "000-000-000000" },
+      { role: "어머니", name: "이춘아", bank: "OO은행", number: "000-000-000000" }
     ]
   },
 
   // ── 링크 공유 시 나타나는 문구 ──
   kakaoShare: {
     jsKey: "",
-    title: "결혼식에 초대합니다",
+    title: "현석♡수연 결혼식에 초대합니다",
     description: ""
   }
 };
